@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>História, Historiografia e Fontes de Pesquisa em Educação</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grupo de Pesquisa - História e Educação</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Roboto', sans-serif; background-color: #f9f9f9; color: #333; }
+    header { background: #004080; color: white; padding: 2rem 1rem; text-align: center; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; }
+    nav { margin-top: 1rem; }
+    section { padding: 2rem; max-width: 960px; margin: auto; }
+    h2 { color: #004080; margin-bottom: 1rem; }
+    ul { list-style-type: none; padding-left: 0; }
+    ul li { margin-bottom: 0.5rem; }
+    footer { background: #eee; text-align: center; padding: 2rem 1rem; margin-top: 2rem; }
+    .social a { margin: 0 0.5rem; text-decoration: none; color: #004080; font-weight: bold; }
+    .card { background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 1.5rem; }
+  </style>
 </head>
 <body>
   <header>
     <h1>História, Historiografia e Fontes de Pesquisa em Educação</h1>
     <nav>
-      <a href="#sobre">Sobre o Grupo</a>
+      <a href="#sobre">Sobre</a>
       <a href="#eventos">Eventos</a>
       <a href="#integrantes">Integrantes</a>
       <a href="#associacoes">Associações</a>
@@ -18,44 +32,51 @@
   </header>
 
   <section id="sobre">
-    <h2>História do Grupo</h2>
-    <p>O grupo de pesquisa "História, Historiografia e Fontes de Pesquisa em Educação" foi criado com o objetivo de fomentar investigações acadêmicas sobre a história da educação, suas fontes e métodos historiográficos. Reunindo pesquisadores de diversas instituições, o grupo promove encontros regulares, seminários e publicações que contribuem para o avanço da área.</p>
+    <div class="card">
+      <h2>História do Grupo</h2>
+      <p>O grupo de pesquisa foi criado com o objetivo de fomentar investigações sobre a história da educação, suas fontes e abordagens historiográficas. Reunindo docentes, discentes e colaboradores, o grupo organiza seminários, encontros e produções científicas voltadas à área.</p>
+    </div>
   </section>
 
   <section id="eventos">
-    <h2>Eventos</h2>
-    <ul>
-      <li><strong>Seminário Nacional</strong> - Outubro 2025</li>
-      <li><strong>Reunião Mensal de Estudos</strong> - Julho 2025</li>
-      <!-- Adicione mais eventos aqui -->
-    </ul>
+    <div class="card">
+      <h2>Eventos</h2>
+      <ul>
+        <li><strong>Seminário Nacional</strong> - Outubro 2025</li>
+        <li><strong>Reunião de Estudos</strong> - Julho 2025</li>
+      </ul>
+    </div>
   </section>
 
   <section id="integrantes">
-    <h2>Integrantes</h2>
-    <ul>
-      <li>Prof. Dra. Maria Souza - <a href="https://lattes.cnpq.br/1234567890" target="_blank">Currículo Lattes</a></li>
-      <li>Prof. Dr. João Pereira - <a href="https://lattes.cnpq.br/0987654321" target="_blank">Currículo Lattes</a></li>
-      <!-- Adicione mais integrantes aqui -->
-    </ul>
+    <div class="card">
+      <h2>Integrantes</h2>
+      <ul>
+        <li>Prof. Dra. Maria Souza - <a href="https://lattes.cnpq.br/1234567890" target="_blank">Currículo Lattes</a></li>
+        <li>Prof. Dr. João Pereira - <a href="https://lattes.cnpq.br/0987654321" target="_blank">Currículo Lattes</a></li>
+      </ul>
+    </div>
   </section>
 
   <section id="associacoes">
-    <h2>Associações da Área da Educação</h2>
-    <ul>
-      <li><a href="https://www.anped.org.br" target="_blank">ANPED</a></li>
-      <li><a href="https://anpuh.org.br" target="_blank">ANPUH</a></li>
-      <li><a href="https://www.hbo.org.br" target="_blank">HBO</a></li>
-      <li><a href="https://sbhe.org.br" target="_blank">SBHE</a></li>
-    </ul>
+    <div class="card">
+      <h2>Associações da Área</h2>
+      <ul>
+        <li><a href="https://www.anped.org.br" target="_blank">ANPED</a></li>
+        <li><a href="https://anpuh.org.br" target="_blank">ANPUH</a></li>
+        <li><a href="https://www.hbo.org.br" target="_blank">HBO</a></li>
+        <li><a href="https://sbhe.org.br" target="_blank">SBHE</a></li>
+      </ul>
+    </div>
   </section>
 
   <footer>
-    <p>Siga-nos nas redes sociais:</p>
-    <a href="https://facebook.com/grupodepesquisa" target="_blank">Facebook</a> |
-    <a href="https://instagram.com/grupodepesquisa" target="_blank">Instagram</a> |
-    <a href="https://twitter.com/grupodepesquisa" target="_blank">Twitter</a>
-    <p>&copy; 2025 História, Historiografia e Fontes de Pesquisa em Educação</p>
+    <p class="social">Siga-nos: 
+      <a href="https://facebook.com/grupodepesquisa">Facebook</a> |
+      <a href="https://instagram.com/grupodepesquisa">Instagram</a> |
+      <a href="https://twitter.com/grupodepesquisa">Twitter</a>
+    </p>
+    <p>&copy; 2025 Grupo de Pesquisa em História e Educação</p>
   </footer>
 </body>
 </html>
